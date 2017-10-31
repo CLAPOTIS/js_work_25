@@ -1,0 +1,38 @@
+html,body{
+	padding:0;
+	margin:0;
+}
+.content{
+	position:relative;
+	width:100%;
+	height:100%;
+	background-color:gray;
+}
+.shake{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:500px;
+	height:300px;
+	list-style-type:none;
+}
+.shake_li{
+	float:left;
+	position:relative;
+	width:85px;
+	height:85px;
+	border-radius:50%;
+	margin-right:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	box-shadow:1px 2px 5px #000;
+}
+.shake_li:nth-child(4n){
+	margin-right:0;
+}
+.shake_li_img{
+	position:relative;
+	width:auto;
+	height:85px;
+}
